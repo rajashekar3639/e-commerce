@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-User {
+    background-color: rgb(231, 222, 222);
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    height: 55vh;
+}
+.input-boxes {
+    margin-bottom: 15px;
+    text-align: left;
+    cursor: text;
+}
+.input-boxes label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e0e8e9;
+    border-radius: 3px;
+}
+.input-boxes input {
+    width: 94%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.btn {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn:hover {
+    background-color: #1a491d;
+}
